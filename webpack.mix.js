@@ -15,7 +15,7 @@ mix.js('resources/assets/js/app.js', 'js/')
    .sass('resources/assets/sass/app.scss', 'css/');
 
 //Mobile
-// mix.sass('resources/assets/sass/m.app.scss', 'css/');
+mix.sass('resources/assets/sass/m.app.scss', 'css/');
 
 // Full API
 // mix.js(src, output);

@@ -8,6 +8,13 @@ class Controller extends BaseController
 {
     public function index()
     {
-        return view('index');
+        return view('index')->with('page','main');
     }
+
+    public function ourContacts()
+    {
+        return view('index')->with('page','contacts');
+    }
+
+
 }

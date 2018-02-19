@@ -12,3 +12,4 @@
 */
 
 $app->get('/', 'Controller@index');
+$app->get('/contacts', 'Controller@ourContacts');

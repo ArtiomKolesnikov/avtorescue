@@ -11,8 +11,7 @@
         "components/jquery": "^3.2",
         "creitive/laravel5-breadcrumbs": "^2.0",
         "guzzlehttp/guzzle": "^6.3",
-        "jenssegers/agent": "^2.5",
-        "laravelcollective/html": "^5.4.0",
+        "jenssegers/agent": "^2.6",
         "maknz/slack": "^1.7",
         "torann/geoip": "^1.0"
 
