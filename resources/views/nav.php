@@ -1,12 +1,17 @@
-<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#">Меню</a>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="/">Главная<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="/contacts">Контакты</a>
-        </div>
+<header id="header">
+    <div class="inner">
+
+        <!-- Logo -->
+        <h1><a href="/" id="logo" class="text-uppercase">avto<span class="text-danger">rescue</span></a></h1>
+
+        <!-- Nav -->
+        <nav id="nav">
+            <ul>
+                <li class="current_page_item"><a href="/">Главная</a></li>
+                <li><a href="/contacts">контакты</a></li>
+                <li><a href="/about_us">о нас</a></li>
+            </ul>
+        </nav>
+
     </div>
-</nav>
+</header>

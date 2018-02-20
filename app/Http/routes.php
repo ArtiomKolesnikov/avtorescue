@@ -13,3 +13,4 @@
 
 $app->get('/', 'Controller@index');
 $app->get('/contacts', 'Controller@ourContacts');
+$app->get('/about_us', 'Controller@aboutUs');

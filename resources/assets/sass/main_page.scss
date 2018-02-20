@@ -1,0 +1,144 @@
+html
+{
+  //min-height: 100vh;
+  height: 100% !important;
+}
+
+body
+{
+  min-height: 100%;
+  box-sizing: border-box;
+
+  background: url("/assets/css/images/bg01.png"), url("/images/header.jpg");
+  background-position: center;
+  background-size: auto, cover;
+}
+
+#header-wrapper, #page-wrapper
+{
+  height: auto;
+  box-sizing: border-box;
+
+}
+
+body
+{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+
+}
+
+#header
+{
+  font-family: "Open Sans", sans-serif;
+
+  #logo
+  {
+    font-weight: bold;
+    &:hover
+    {
+      text-decoration: none;
+    }
+  }
+}
+
+#page-wrapper
+{
+  //height: 100%;
+
+  #content
+  {
+    padding-top: 5em;
+    text-align: center;
+
+    @media (max-width: 1000px) {
+      //padding-top: 1em;
+    }
+  }
+}
+
+.main_page_img_wrapper
+{
+  border: solid 1px rgba(255, 255, 255, 0.25);
+  border-left: 0;
+  border-right: 0;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 2.35em;
+  font-weight: 700;
+  line-height: 1.3em;
+  margin: 0 0 1.5em 0;
+
+  img
+  {
+    margin: 20px 0;
+  }
+
+}
+
+.btn_call
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto 20px;
+  max-width: 400px;
+  padding: 1em !important;
+
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url(/assets/css/images/bg02.png);
+  background-color: #4091bf;
+
+  span
+  {
+    margin: 5px;
+  }
+
+  @media (min-width: 738px) {
+    font-size: 2vh !important;
+
+  }
+
+  //@media (min-width: 1000px) {
+  //  font-size: 3vh !important;
+  //
+  //}
+}
+
+.min_price
+{
+  color: white;
+  text-transform: uppercase;
+  float: none !important;
+  text-align: center;
+
+  .text-danger
+  {
+    font-size: 150%;
+  }
+}
+
+footer
+{
+  position: relative;
+  background-color: #7b818c;
+  margin: 0;
+  padding: 30px 5px;
+
+  //background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
+  //background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
+  //background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
+  //background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("images/bg03.png"), url("images/bg02.png");
+  //position: relative;
+  //background-repeat: repeat-x, no-repeat, repeat;
+  //background-size: 100% 100%, 100% 15em, auto auto;
+  //background-position: top left, top center, top left;
+
+  .footer_container
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+}

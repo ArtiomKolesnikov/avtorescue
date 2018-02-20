@@ -16,5 +16,10 @@ class Controller extends BaseController
         return view('index')->with('page','contacts');
     }
 
+    public function aboutUs()
+    {
+        return view('index')->with('page','about_us');
+    }
+
 
 }
