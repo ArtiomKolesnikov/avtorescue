@@ -375,11 +375,10 @@ template {
 }
 
 html {
-  height: 100% !important;
+  min-height: 100%;
 }
 
 body {
-  min-height: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: url("/assets/css/images/bg01.png"), url("/images/header.jpg");
@@ -425,6 +424,8 @@ body {
 }
 
 .main_page_img_wrapper {
+  position: relative;
+  text-align: center;
   border: solid 1px rgba(255, 255, 255, 0.25);
   border-left: 0;
   border-right: 0;
@@ -436,8 +437,45 @@ body {
   margin: 0 0 1.5em 0;
 }
 
-.main_page_img_wrapper img {
+.main_page_img_wrapper .main_image {
   margin: 20px 0;
+  border-radius: 50%;
+}
+
+.main_page_img_wrapper .main_image:hover {
+  cursor: pointer;
+  -webkit-box-shadow: -2px -2px 35px 42px #9b9ba5, inset 5px 5px 5px 15px dimgrey;
+  box-shadow: -2px -2px 35px 42px #9b9ba5, inset 5px 5px 5px 15px dimgrey;
+}
+
+.main_page_img_wrapper .inner_wrapper {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.main_page_img_wrapper .img_type_evoc {
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.main_page_img_wrapper .top_margin {
+  top: 10px;
+}
+
+.main_page_img_wrapper .left_margin {
+  left: -10px;
+}
+
+.main_page_img_wrapper .bottom_margin {
+  bottom: 10px;
+}
+
+.main_page_img_wrapper .right_margin {
+  right: -10px;
 }
 
 .btn_call {

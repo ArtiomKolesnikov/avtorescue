@@ -3,7 +3,9 @@
 
 body
 {
-
+	min-height: -webkit-fill-available;
+	min-height: -moz-fill-available;
+	min-height: -ms-fill-available;
 }
 
 /*
